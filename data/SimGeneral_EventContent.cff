@@ -12,3 +12,8 @@ block SimGeneralRECO = {
   }		
 }	
 
+#AOD content
+block SimG4CoreAOD = {
+  untracked vstring outputCommands = {
+  }
+} 

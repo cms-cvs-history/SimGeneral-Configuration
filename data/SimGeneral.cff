@@ -1,0 +1,5 @@
+     #
+     # include TrackingParticle Producer
+     #
+
+     include "SimGeneral/TrackingAnalysis/data/trackingtruth.cfi"
