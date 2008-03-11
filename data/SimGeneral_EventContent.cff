@@ -1,21 +1,23 @@
-#Full Event content 
+#Full Event content
 block SimGeneralFEVT = {
   untracked vstring outputCommands = {
-	"keep *_trackingtruthprod_*_*",
-    "keep *_electrontruth_*_*"
-  }		
-}	
+    "drop *_trackingtruthprod_*_*",
+    "drop *_electrontruth_*_*",
+    "keep *_mergedtruth_*_*"
+  }
+}
 
 #RECO content
 block SimGeneralRECO = {
   untracked vstring outputCommands = {
-	"keep *_trackingtruthprod_*_*",
-    "keep *_electrontruth_*_*"
-  }		
-}	
+    "drop *_trackingtruthprod_*_*",
+    "drop *_electrontruth_*_*",
+    "keep *_mergedtruth_*_*"
+  }
+}
 
 #AOD content
 block SimGeneralAOD = {
   untracked vstring outputCommands = {
   }
-} 
+}
