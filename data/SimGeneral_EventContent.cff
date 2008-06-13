@@ -1,5 +1,5 @@
 #Full Event content
-block SimGeneralFEVT = {
+block SimGeneralFEVTDEBUG = {
   untracked vstring outputCommands = {
     "drop *_trackingtruthprod_*_*",
     "drop *_electrontruth_*_*",
@@ -7,12 +7,14 @@ block SimGeneralFEVT = {
   }
 }
 
+#RAW content
+block SimGeneralRAW = {
+  untracked vstring outputCommands = {
+  }
+}
 #RECO content
 block SimGeneralRECO = {
   untracked vstring outputCommands = {
-    "drop *_trackingtruthprod_*_*",
-    "drop *_electrontruth_*_*",
-    "keep *_mergedtruth_*_*"
   }
 }
 
