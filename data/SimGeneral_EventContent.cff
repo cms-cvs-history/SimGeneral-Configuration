@@ -3,7 +3,7 @@ block SimGeneralFEVTDEBUG = {
   untracked vstring outputCommands = {
     "drop *_trackingtruthprod_*_*",
     "drop *_electrontruth_*_*",
-    "keep *_mergedtruth_*_*"
+    "keep *_mergedtruth_MergedTrackTruth_*"
   }
 }
 
