@@ -1,5 +1,0 @@
-     #
-     # include TrackingParticle Producer
-     #
-
-     include "SimGeneral/TrackingAnalysis/data/trackingParticles.cfi"
